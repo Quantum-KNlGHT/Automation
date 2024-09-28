@@ -6,14 +6,14 @@ import io.restassured.response.Response;
 	
 public class UserPage {
 
-    private static final String BASE_URL = "http://jsonplaceholder.typicode.com/users";
+    private static final String BASE_URL = "http://jsonplaceholder.typicode.com";
     
     public Response getUsers() {
-        return RestAssured.get(BASE_URL);
+        return RestAssured.get(BASE_URL+"/users");
     }
 
     public Response getTodosByUserId(int userId) {
-        return RestAssured.get("http://jsonplaceholder.typicode.com/todos?userId=" + userId);
+        return RestAssured.get(BASE_URL+"/todos?userId=" + userId);
     }
     
 }
