@@ -4,9 +4,10 @@ This project automates the verification that all users from the city "FanCode" h
 
 ## Table of Contents
 
-- [Technologies Used]
-- [Setup and Running the Project]
-- [Running Tests]
+- [Technologies Used](#technologies-used)
+- [Setup and Running the Project](#setup-and-running-the-project)
+- [Running Tests](#running-tests)
+
 
 ## Technologies Used
 
@@ -30,8 +31,10 @@ git clone [<repository-url>](https://github.com/Quantum-KNlGHT/Automation.git)
 3. **Git**: Ensure Git is installed to clone the repository. You can download it from [Git's website](https://git-scm.com/downloads).
 
 ### Clone the Repository
+To set up the project, clone the repository to your local machine:
+git clone [https://github.com/Quantum-KNlGHT/Automation.git](https://github.com/Quantum-KNlGHT/Automation.git)
 
-### Running Tests
+
+## Running Tests
 Run the test using TestNGRunner.java file under cucumberOptions package in path src/test/java.
 Right click -> Run As -> TestNG Test
-
